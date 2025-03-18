@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3293360174810477231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3642401899468737765}
+  - component: {fileID: 4349587116884746526}
+  - component: {fileID: 6670847191111372478}
+  - component: {fileID: 9119094112135419467}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3642401899468737765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3293360174810477231}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 610.22406, y: 397.186, z: -78.364136}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4349587116884746526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3293360174810477231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51b3297c1def09141bd9e568072a3631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnTransform: {fileID: 0}
+  _individualPrefab: {fileID: 574239678791221679, guid: cbc3128d13bd101449e9889518ba34a9, type: 3}
+  _suspectSelectButtonPrefab: {fileID: 6824968656567931406, guid: f480e9513a20408499d55f6764cb1561, type: 3}
+  _buttonPanelRectTransform: {fileID: 0}
+  _inputField: {fileID: 0}
+  _loadingScreen: {fileID: 0}
+--- !u!114 &6670847191111372478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3293360174810477231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5e2ff4f0b46cb4d96607ceb4d35259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9119094112135419467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3293360174810477231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40e181ef7f384f5e895d4dc3eee0702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voice: Dalton
+  dialogue: 
